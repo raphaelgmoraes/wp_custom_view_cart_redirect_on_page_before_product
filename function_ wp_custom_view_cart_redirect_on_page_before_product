@@ -9,7 +9,7 @@
  
 add_filter( 'wc_add_to_cart_message_html', 'custom_add_to_cart_message', 20 );
  
-function bbloomer_custom_add_to_cart_message() {
+function custom_add_to_cart_message() {
 	
 /*função para pegar o último item e retornar na página*/
 
