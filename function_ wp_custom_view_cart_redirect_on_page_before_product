@@ -4,7 +4,7 @@
  * @sourcecode    https://github.com/raphaelgmoraes/wp_custom_view_cart_redirect_on_page_before_product
  * @author        Raphael G. Moraes
  * @version    	  1.1.0
- * @Date		      22-07-2020
+ * @Date          22-07-2020
  */
  
 add_filter( 'wc_add_to_cart_message_html', 'custom_add_to_cart_message', 20 );
