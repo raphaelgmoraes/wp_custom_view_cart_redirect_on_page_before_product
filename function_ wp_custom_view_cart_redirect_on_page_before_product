@@ -30,6 +30,7 @@ foreach ( WC()->cart->get_cart() as $cart_item_key => $cart_item ) {
 /*Visualização do botão - Continue comprando :: View Cart*/
 global $woocommerce;
 $return_to  = get_permalink($product_id);
-$message    = sprintf('<a href="%s" class="button wc-forwards">%s</a> %s', $return_to, __('Continue comprando - Teste 1', 'woocommerce'), __('Product successfully added to your cart.', 'woocommerce') );
+$message    = sprintf('<a href="%s" class="button wc-forwards">%s</a> %s', $return_to, __('Continue comprando', 'woocommerce'), __('
+Produto adicionado com sucesso ao seu carrinho.', 'woocommerce') );
 return $message;
 }
